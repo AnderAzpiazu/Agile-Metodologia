@@ -1,0 +1,8 @@
+1. echo "Hau prueba bat da" > proba.txt
+2. git stash
+3. git stash list
+4. echo "Azkarregi" > azkar.txt
+5. git add azkar.txt
+5. git commit -m "Azkarazkar"
+6. git stash apply
+7. git commit -m "Azkenengoa"

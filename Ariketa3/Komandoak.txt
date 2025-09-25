@@ -1,0 +1,8 @@
+1. git Branch feature-idea
+2. git checkout feature-idea
+3. echo "Kaixo" > idea.txt
+4. git add idea.txt
+5. git commit -m "Idea"
+6. git checkout master
+7. git diff master feature-idea
+8. git merge feature-idea

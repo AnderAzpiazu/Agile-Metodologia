@@ -1,0 +1,16 @@
+1. echo "Emilio Roca Cáceres" > LuchoRK.txt
+2. git add LuchoRK.txt
+3. git commit -m "bat"
+4. nano LuchoRK.txt
+5. echo "Sergio Aimar Castellano" > LaPantera.txt
+6. git add LuchoRK.txt
+7. git add LaPantera.txt
+8. git commit -m "bi"
+9. git log
+10. git checkout ea51108
+11. git checkout master
+12. git add .
+13. git commit -m "Checkpoint"
+14. git tag "Checkpoint"
+15. git log --graph --decorate --oneline
+

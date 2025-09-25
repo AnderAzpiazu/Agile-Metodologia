@@ -1,0 +1,14 @@
+1. git init
+2. echo "Quevedo" > Quevedo.txt
+3. git add Quevedo.txt
+4. git commit -m "Lenengo commit-a"
+5. nano Quevedo.txt
+6. git add Quevedo.txt
+7. git commit -m "Bigarren commit-a"
+8. truncate -s 0 Quevedo.txt
+9. git add Quevedo.txt
+10. git commit -m "Commit hutsa"
+11. git reflog
+12. git reset --hard HEAD@{1}
+13. git log --graph --decorate --oneline
+14. git tag -a v1.0 -m "Bigarren commit-a" a704ab2
