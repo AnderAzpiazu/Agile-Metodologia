@@ -20,7 +20,10 @@ jobs:
 
       - name: Install dependencies
         run:
-           pip install -r requirements.txt
+           pip install -r GitHub_Actions/requirements.txt
       - name: Run tests
-        run: pytest test.py  
+        run: pytest GitHub_Actions/test.py  
+      
+      - name: ruff linting txekeoa        
+        run: ruff check . 
     
