@@ -23,4 +23,7 @@ jobs:
            pip install -r GitHub_Actions/requirements.txt
       - name: Run tests
         run: pytest GitHub_Actions/test.py  
+      
+      - name: ruff linting txekeoa        
+        run: ruff check . 
     
